@@ -1,15 +1,13 @@
 
-# Semgrep
+# Semgrep (via pipx) (semgrep)
 
-A feature to instal Semgrep CLI in the devcontainer
+Installs Semgrep CLI in your devcontainer
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/sonikro/devcontainer-features/semgrep:1": {
-        "version": "1.14.0"
-    }
+    "ghcr.io/sonikro/devcontainer-features/semgrep:1": {}
 }
 ```
 
@@ -17,9 +15,10 @@ A feature to instal Semgrep CLI in the devcontainer
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Semgrep version to be installed | string | 1.14.0 |
+| semgrep_version | Semgrep CLI Version | string | 1.14.0 |
 
 
 
 ---
 
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/sonikro/devcontainer-features/blob/main/src/semgrep/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
