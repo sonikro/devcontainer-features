@@ -1,25 +1,15 @@
 
-# Semgrep
+# sonikro/devcontainer-features
 
-A feature to instal Semgrep CLI in the devcontainer
+[![CI - Test Features](https://github.com/sonikro/devcontainer-features/actions/workflows/test.yaml/badge.svg)](https://github.com/sonikro/devcontainer-features/actions/workflows/test.yaml)
 
-## Example Usage
+Repository containing some DevContainer features developed by me (Sonikro).
 
-```json
-"features": {
-    "ghcr.io/sonikro/devcontainer-features/semgrep:1": {
-        "version": "1.14.0"
-    }
-}
-```
-
-## Options
-
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| version | Semgrep version to be installed | string | 1.14.0 |
+For more information, check the README for each feature
 
 
+## Authors
 
----
+- [@sonikro](https://www.github.com/sonikro)
+
 
