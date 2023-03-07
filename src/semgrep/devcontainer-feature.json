@@ -1,0 +1,16 @@
+{
+    "name": "Semgrep (via pipx)",
+    "id": "semgrep",
+    "version": "1.0.0",
+    "description": "Installs Semgrep CLI in your devcontainer",
+    "options": {
+        "semgrep_version": {
+            "type": "string",
+            "default": "1.14.0",
+            "description": "Semgrep CLI Version"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/python"
+    ]
+}

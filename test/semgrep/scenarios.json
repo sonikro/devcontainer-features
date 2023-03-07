@@ -1,9 +1,9 @@
 {
-    "hello": {
+    "semgrep_version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "hello": {
-                "greeting": "hello"
+            "semgrep": {
+                "semgrep_version": "1.14.0"
             }
         }
     }
